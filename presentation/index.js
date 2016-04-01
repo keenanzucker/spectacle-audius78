@@ -40,6 +40,7 @@ const images = {
   component: require("../assets/component.jpg"),
   ui1: require("../assets/ui1.jpg"),
   ui2: require("../assets/ui2.jpg"),
+  diagram: require("../assets/diagram.jpg"),
   wave: require("../assets/wave.png")
 };
 
@@ -167,6 +168,10 @@ This entails a system where users can upload audio files, and then edit them tog
               WAVE Files
             </Heading>
             <Image width="100%" src={images.wave}/>
+          </Slide>
+
+          <Slide transition={[ "zoom"]} bgColor="primary">
+            <Image width="100%" src={images.diagram}/>
           </Slide>
 
           <Slide transition={["slide"]} bgColor="tertiary">

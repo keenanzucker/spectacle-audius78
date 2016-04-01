@@ -99,7 +99,23 @@ This entails a system where users can upload audio files, and then edit them tog
             </Markdown>
           </Slide>
 
-          <Slide transition={["spin", "zoom"]} bgColor="tertiary">
+          <Slide transition={["slide"]} bgColor="tertiary">
+            <Heading caps fit size={2} textColor="black">
+              Current Progress
+            </Heading>
+            <Markdown>
+              {`
+* Designed UI
+* Set up webpack configuration
+* Wrote .wav parser
+* Learned Redux and structure architecture 
+* Figured out our client-to-server interactions
+* Investigated audio visualization on front-end
+              `}
+            </Markdown>
+          </Slide>
+
+          <Slide transition={["spin", "zoom"]} bgColor="primary">
             <Image width="100%" src={images.component}/>
           </Slide>
 

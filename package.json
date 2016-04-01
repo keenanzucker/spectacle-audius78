@@ -18,7 +18,9 @@
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "spectacle": "^1.0.0",
-    "webpack": "^1.12.14"
+    "webpack": "^1.12.14",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0"
   },
   "devDependencies": {
     "autoprefixer-core": "^6.0.1",

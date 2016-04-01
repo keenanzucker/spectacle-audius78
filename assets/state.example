@@ -1,0 +1,12 @@
+state = {
+	users: { count: Number },
+	Audio: [
+		id: { 
+  start: Number,
+		  duration: Number,
+		  tags: [ { type: String, start: Number, dur: Number }],
+		  fd: Number
+		},
+ 		...
+	],
+}

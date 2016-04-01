@@ -162,6 +162,12 @@ This entails a system where users can upload audio files, and then edit them tog
             />
           </Slide>
 
+          <Slide transition={["zoom"]} bgColor="primary">
+            <Heading caps fit size={1} textColor="tertiary">
+              WAVE Files
+            </Heading>
+            <Image width="100%" src={images.wave}/>
+          </Slide>
 
           <Slide transition={["slide"]} bgColor="tertiary">
             <Markdown>
@@ -179,13 +185,6 @@ This entails a system where users can upload audio files, and then edit them tog
 * Splitting WAVE files on Server-side
               `}
             </Markdown>
-          </Slide>
-
-          <Slide transition={["zoom"]} bgColor="primary">
-            <Heading caps fit size={1} textColor="tertiary">
-              WAVE Files
-            </Heading>
-            <Image width="100%" src={images.wave}/>
           </Slide>
 
           <Slide transition={["fade"]} bgColor="primary">

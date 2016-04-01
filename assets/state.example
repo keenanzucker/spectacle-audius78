@@ -1,12 +1,24 @@
-state = {
-	users: { count: Number },
-	Audio: [
-		id: { 
-  start: Number,
-		  duration: Number,
-		  tags: [ { type: String, start: Number, dur: Number }],
-		  fd: Number
-		},
- 		...
-	],
+var state = {
+    Users: [Id,...],
+    Rows: {
+        Id: {
+            tracks: {
+                Id: {
+                    fp: String,
+                    start: Number,
+                    end: Number,
+                    tags: {
+                        id: {
+                            type: String,
+                            start: Number,
+                            end: Number
+                        },
+                        ...
+                    }
+                },
+                ...
+            }
+        },
+        ...
+    }
 }
